@@ -8,4 +8,4 @@
 
 #### 他非常坚强又快。他也很聪明，擅长小提琴。[您可以在这里听他拉小提琴。](violin.markdown)
 
-![alt text](img/headshot2.jpg)
+![alt text](img/headshot_alt.jpg)
