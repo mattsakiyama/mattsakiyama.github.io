@@ -1,5 +1,6 @@
-layout: page
-title: "Academics"
-permalink: /academics
+---
+title: Academics
+permalink: /academics/
+---
 
 ## Hello Hello
