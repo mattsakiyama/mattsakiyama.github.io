@@ -1,5 +1,5 @@
----
-title: Music
-permalink: /music/
----
-## I am a virtuoso concert violinist.
+layout: page
+title: "Academics"
+permalink: /academics
+
+## Hello Hello
