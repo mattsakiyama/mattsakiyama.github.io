@@ -49,7 +49,7 @@ I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-Coll
 
 ## I am an orchestral violinist who has toured internationally.
 - 3 consecutive seasons with the National Youth Orchestra program
-  - 1st violinist, NYO-USA 2020 with Maestro Jim Ross
+  - 1st violinist, NYO-USA 2020 with Maestro Jim Ross. Listen to our recording of Valerie Coleman's [Umoja](https://www.facebook.com/carnegiehall/videos/369035581158912/)
   - Associate Concertmaster, NYO2 2019 New York-Miami Tour with Maestro Carlos Miguel Prieto and soloists Gabriela Montero and Paquito D'Rivera
   - 1st violinist, NYO2 2018 New York-Miami Tour with Maestro Carlos Miguel Prieto and soloist Gil Shaham
 - 4 seasons with San Francisco Symphony Youth Orchestra
