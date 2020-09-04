@@ -8,14 +8,14 @@ permalink: /music/
 
 I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-College.
 
-### Watch [my latest livestream!](https://www.youtube.com/watch?v=qaCrC9cJCVk)
-- 24 Caprices, op. 1, no. 4 in c minor, Maestoso by N. Paganini
-- Sonata no. 3 in C major, BWV 1005, III. Largo by J.S. Bach
-- Violin Concerto in D major, op. 77, I. Allegro non troppo by J. Brahms, Cadenza by Hugo Heermann
+### Watch some of my favorite recordings!
+- Fantasy for Solo Violin by Ellen Taaffe Zwilich
+- Fiddle Dance Suite: As the Wind Goes by Wynton Marsalis (commissioned by Nicola Benedetti)
+- Partita no. 3 in E Major: Gigue by Johann Sebastian Bach
+- Tzigane by Maurice Ravel
 
-### I have won many awards for my performances.
+### I have won awards at the local and international level.
 - 1st Prize ENKOR International Music Competition (2020)
-- San Francisco Conservatory of Music Chamber Music Award (2020)
 - 1st Prize KAMSA Competition (2020)
 - Finalist Pacific Music Society Competition (2020)
 - 3rd Prize Galante Prize Competition (2020)
@@ -28,6 +28,16 @@ I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-Coll
 - Finalist Classics Alive Young Artist Audition (2017)
 - 1st Prize 2016 Pacific Music Society Music Competition (2016)
 
+### I have studied at the San Francisco Conservatory of Music (SFCM) Pre-College for nine years.
+- Vice President and founding member of Student Council (2019-20)
+- Organized [virtual benefit concert](https://youtu.be/1GKF1WkvS0o?t=1573) and raised over $1,600 for music education in San Francisco public schools
+- Featured Performer at Pre-college Graduation (2020)
+- Summer Showcase Concert (2019)
+- Winter Showcase Concert (2019)
+- Concertmaster of Contemporary Music Ensemble (2020)
+- Chamber Music Award (2020)
+- Performance Certificate (2020)
+
 ### Here are the pieces I'm currently working on:
 - Violin Concerto in D major, op. 77 by Johannes Brahms
 - Fantasy for Solo Violin by Ellen Taaffe Zwilich
@@ -38,12 +48,18 @@ I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-Coll
 - Violin Sonata in A major, op. 12 no. 2 by Ludwig Van Beethoven
 
 ## I am an orchestral violinist who has toured internationally.
-Most recently I was accepted into the National Youth Orchestra of the USA 2020 season, which was reduced to a two week remote program due to coronavirus. Stay safe everyone!
-
-My past orchestral seasons include:
-- National Youth Orchestra 2 2019, 2018
-- San Francisco Symphony Youth Orchestra 2016-2020, 2019 European Tour
-- Sewanee Summer Music Festival 2017
+- 3 consecutive seasons with the National Youth Orchestra program
+  - 1st violinist, NYO-USA 2020 with Maestro Jim Ross
+  - Associate Concertmaster, NYO2 2019 New York-Miami Tour with Maestro Carlos Miguel Prieto and soloists Gabriela Montero and Paquito D'Rivera
+  - 1st violinist, NYO2 2018 New York-Miami Tour with Maestro Carlos Miguel Prieto and soloist Gil Shaham
+- 4 seasons with San Francisco Symphony Youth Orchestra
+  - 2019 European Tour featuring Grammy Award winning soloist Nicola Benedetti
+  - Youngest member in 2016
+  - 1st violinist from 2018-20
+- Sewanee Summer Music Festival 2017, soloist and Concertmaster
+- 3 seasons with Golden State Youth Orchestra (formerly El Camino Youth Orchestra)
+  - Youngest member of Senior Symphony in 2015
+  - Assistant concertmaster of Sinfonietta in 2014
 
 ## I am a chamber musician who has won awards with different ensembles.
 - San Francisco Conservatory of Music Chamber Music Award (2020)
@@ -55,11 +71,13 @@ Here are some of my past chamber performances:
 - [Beethoven Piano Trio op. 1 no, 2, Finale: Presto](https://www.youtube.com/watch?v=TmTjjV-s-Vk)
 
 ## I've had some very memorable performances.
+- Masterclasses with Ida Kavafian, Xiao-Dong Wang, and Axel Strauss at Vivace International Music Festival (Jul.-Aug. 2020)
+- Performance with Violins of Hope (Feb. 2020)
 - Concerts at the Presidio (Nov. 2019)
-- Debut at Carnegie Hall (Jul. 2018)
+- Carnegie Hall debut (Jul. 2018)
 - Debuts at Vienna Musikverein, Berlin Philharmonie, and Hamburg Elbphilharmonie (Jul. 2019)
 - Solo debut with orchestra at Sewanee Summer Music Festival (Jul. 2017)
-- KPFA 94.9 podcast “Ideas and Ideals” (Feb. 2019)
+- Live performance for KPFA 94.9 podcast “Ideas and Ideals” with Larry Bensky (Feb. 2019)
 
 ## I am a cover artist recording original arrangements of my favorite songs.
 Songs I've covered:
