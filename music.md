@@ -11,8 +11,8 @@ I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-Coll
 ### Watch some of my favorite recordings of my playing!
 - Fantasy for Solo Violin by Ellen Taaffe Zwilich
 - Fiddle Dance Suite: As the Wind Goes by Wynton Marsalis (commissioned by Nicola Benedetti)
-- Partita no. 3 in E Major: Gigue by Johann Sebastian Bach
-- Tzigane by Maurice Ravel
+- [Partita no. 3 in E Major: Gigue by Johann Sebastian Bach](https://www.youtube.com/watch?v=MYTKgvB1rb0)
+- [Tzigane by Maurice Ravel](https://www.youtube.com/watch?v=a-Ok8jWDPJ8)
 
 ### I have won awards at the local and international level.
 - 1st Prize ENKOR International Music Competition (2020)
