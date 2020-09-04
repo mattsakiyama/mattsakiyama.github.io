@@ -8,7 +8,8 @@ permalink: /research/
 - Present work at weekly meetings
 - [More information](https://genes.mit.edu)
 
-## XRT
+## Molecular Biology Research
+- Co-lead of research team
 - Studied experimental design and fundamental lab skills
 - Conducted original research on dopamine signalling in C. elegans in partnership with Stanford Shen Lab
 - Planned to present data at annual meeting of the American Society for Biochemistry and Molecular Biology before cancellation due to COVID-19
@@ -17,7 +18,8 @@ permalink: /research/
 - Performed lab procedures using autoclave, vortex, centrifuge, micropipette
 - Teach basic lab skills and provide guidance to new research program members
 
-## MODAP
+## Invention Studio
+- Co-founder and co-lead of Team MODAP
 - Design and prototype affordable drones for California firefighters’ search and rescue operations
 - Collect feedback from potential users about concept of operations
 - Lead weekly meetings and recruit and train new members
@@ -26,6 +28,11 @@ permalink: /research/
 - Placed as Finalist in 2020 Diamond Challenge
 - Planned to present at 2020 SXSW Education Conference Student Startup Competition before cancellation due to COVID-19
 - [MODAP website](https://www.modap.io/)
+
+## Eisai Genetics Guided Dementia Discovery Internship
+- Studied DNA extraction, microscopy, and data analysis under Eisai employees
+- Investigated the recent worldwide increase in Alzheimer's Disease cases
+- Led a team of students from across the nation in developing a product to combat the negative effects of the COVID-19 pandemic on Alzheimer's patients
 
 ## Pendulum Clock
 - Designed and components of the escapement mechanism using Fusion360
