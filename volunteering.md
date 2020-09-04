@@ -5,12 +5,12 @@ permalink: /volunteering/
 ## SPCA
 - Take resident dogs on walks and clean dormitory rooms and dirty linens
 - Log each dog’s activities and provide potential adopters with information
-- https://phs-spca.org/
+- [More information](https://phs-spca.org/)
 
 ## Tutoring
 - Tutored 7th graders in mathematics, English, and financial literacy for two hours per week for Peninsula Bridge program
 - Assist teachers with Peninsula Bridge activities
-- Peninsula Bridge: https://www.peninsulabridge.org/
+- [Peninsula Bridge](https://www.peninsulabridge.org/)
 - Tutor elementary through advanced chemistry for Nueva Peer Tutoring program
 
 ## Music Outreach
