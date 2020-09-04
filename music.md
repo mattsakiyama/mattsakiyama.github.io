@@ -8,7 +8,7 @@ permalink: /music/
 
 I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-College.
 
-### Watch some of my favorite recordings!
+### Watch some of my favorite recordings of my playing!
 - Fantasy for Solo Violin by Ellen Taaffe Zwilich
 - Fiddle Dance Suite: As the Wind Goes by Wynton Marsalis (commissioned by Nicola Benedetti)
 - Partita no. 3 in E Major: Gigue by Johann Sebastian Bach
