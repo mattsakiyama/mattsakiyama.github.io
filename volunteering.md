@@ -15,4 +15,4 @@ permalink: /volunteering/
 
 ## Music Outreach
 - Organize and perform in monthly virtual concerts for residents at a local retirement home
-- Held an online benefit concert featuring students from the San Francisco Conservatory of Music Pre-College and raised over $1,600 for music education in public schools
+- Held an [online benefit concert](https://youtu.be/1GKF1WkvS0o?t=1573) featuring students from the San Francisco Conservatory of Music Pre-College and raised over $1,600 for music education in public schools
