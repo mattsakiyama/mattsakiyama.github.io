@@ -18,10 +18,11 @@ permalink: /academics/
 ## Courses
 
 ### Drug Design
-- Currently Teacher's Assistant
-- Conducted synthesis of lidocaine
-- Completed and titrations, liquid-liquid extractions
+- Teacher's Assistant for Drug Design this year
+- Completed solvent evaporations, titrations, liquid-liquid extractions
 - Performed and analyzed thin layer chromatography, spectrophotometry, and melting point tests
+- Conducted synthesis of lidocaine and methyl paraben
+- Tested efficacy of synthesized methyl paraben against standard antibiotics
 - Studied and analyzed infrared spectroscopy, proton NMR spectroscopy, and mass spectrometry
 
 ### Advanced Mechanics
@@ -35,10 +36,10 @@ permalink: /academics/
 - Designed, modeled, and assembled desk fan using Fusion360 and 3-D printer
 
 ### Psychology
-- Enrolled in Introduction to Psychology at Skyline College
+- Enrolled and received an A in Introduction to Psychology at Skyline College
   - Studied basic psychological principles, changes in psychological theory over time, human development, and mental health and illness.
-- Took six years of Social Emotional Learning and Science of Mind
-  - Studied neuroscience and physiology of stress, practiced mindfulness techniques, and provided peer feedback in classwide problem solving
+- Studied six years of Social Emotional Learning and Science of Mind
+  - Explored neuroscience and physiology of stress, practiced mindfulness techniques, and provided peer feedback in personal problem solving
   
 ## AP Scores
 - Self-studied for and received 5 out of 5 on the following AP tests:
@@ -63,6 +64,6 @@ permalink: /academics/
   - Prototyped pendulum clock components using various tools, including laser cutter and 3-D printer
   - Iterated on work to fabricate working pendulum clock escapement
 - 2019-20: Arranged and recorded violin covers of popular music. [YouTube channel](https://www.youtube.com/channel/UCcLpjjeejgypzPr9JH2ipZw)
-  - Transcribed popular songs
+  - Transcribed popular songs by ear
   - Recorded and edited instrumentals and melody from scratch
   - Recorded, edited, and posted videos on YouTube
