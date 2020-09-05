@@ -54,12 +54,12 @@ I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-Coll
   - 1st violinist, NYO2 2018 New York-Miami Tour with Maestro Carlos Miguel Prieto and soloist Gil Shaham
 - 4 seasons with San Francisco Symphony Youth Orchestra
   - 2019 European Tour featuring Grammy Award winning soloist Nicola Benedetti
-  - Youngest member in 2016
-  - 1st violinist from 2018-20
+  - Youngest member
+  - 1st violinist
 - Sewanee Summer Music Festival 2017, soloist and Concertmaster
 - 3 seasons with Golden State Youth Orchestra (formerly El Camino Youth Orchestra)
-  - Youngest member of Senior Symphony in 2015
-  - Assistant concertmaster of Sinfonietta in 2014
+  - Youngest member
+  - Assistant concertmaster of Sinfonietta
 
 ## I am a chamber musician who has won awards with different ensembles.
 - San Francisco Conservatory of Music Chamber Music Award (2020)
@@ -71,13 +71,13 @@ Here are some of my past chamber performances:
 - [Beethoven Piano Trio op. 1 no, 2, Finale: Presto](https://www.youtube.com/watch?v=TmTjjV-s-Vk)
 
 ## I've had some very memorable performances.
-- Masterclasses with Ida Kavafian, Xiao-Dong Wang, and Axel Strauss at Vivace International Music Festival (Jul.-Aug. 2020)
-- Performance with Violins of Hope (Feb. 2020)
-- Concerts at the Presidio (Nov. 2019)
-- Carnegie Hall debut (Jul. 2018)
-- Debuts at Vienna Musikverein, Berlin Philharmonie, and Hamburg Elbphilharmonie (Jul. 2019)
-- Solo debut with orchestra at Sewanee Summer Music Festival (Jul. 2017)
-- Live performance for KPFA 94.9 podcast “Ideas and Ideals” with Larry Bensky (Feb. 2019)
+- Masterclasses with Ida Kavafian, Xiao-Dong Wang, and Axel Strauss at Vivace International Music Festival (2020)
+- Performance with Violins of Hope (2020)
+- Concerts at the Presidio (2019)
+- Carnegie Hall debut (2018)
+- Debuts at Vienna Musikverein, Berlin Philharmonie, and Hamburg Elbphilharmonie (2019)
+- Solo debut with orchestra at Sewanee Summer Music Festival (2017)
+- Live performance for KPFA 94.9 podcast “Ideas and Ideals” with Larry Bensky (2019)
 - Six consecutive years performing at Junior Bach Festival (2014-2019)
 
 ## I am a cover artist recording original arrangements of my favorite songs.
