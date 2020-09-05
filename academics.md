@@ -19,7 +19,7 @@ permalink: /academics/
 
 ## Courses
 
-## Molecular Biology Research
+### Molecular Biology Research
 - Co-lead of research team
 - Studied experimental design and fundamental lab skills
 - Conducted original research on dopamine signalling in C. elegans in partnership with Stanford Shen Lab
