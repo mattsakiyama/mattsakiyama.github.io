@@ -28,8 +28,8 @@ permalink: /research/
 - Planned to present at 2020 SXSW Education Conference Student Startup Competition before cancellation due to COVID-19
 - [MODAP website](https://www.modap.io/)
 
-## Eisai Genetics Guided Dementia Discovery Internship
-- Studied DNA extraction, microscopy, and data analysis under Eisai employees
+## Eisai Pharmaceuticals: Genetics Guided Dementia Discovery Internship
+- Studied DNA extraction, microscopy, and data analysis under the Founder and President of the [Center for Genetics Guided Dementia Discovery](https://us.eisai.com/en/our-science/discovery-centers/g2d2)
 - Investigated the recent worldwide increase in Alzheimer's Disease cases
 - Led a team of students from across the nation in developing a product to combat the negative effects of the COVID-19 pandemic on Alzheimer's patients
 
