@@ -89,4 +89,4 @@ Songs I've covered:
 - [Lil Tecca - Ransom](https://www.youtube.com/watch?v=Z-RdAkUWAms)
 
 ## I also give private lessons to beginning violin students in the Bay Area.
-If you would like to learn from me, please email [matt.sakiyama@gmail.com]
+If you would like to learn from me, please email [matt.sakiyama@gmail.com](matt.sakiyama@gmail.com)
