@@ -78,6 +78,7 @@ Here are some of my past chamber performances:
 - Debuts at Vienna Musikverein, Berlin Philharmonie, and Hamburg Elbphilharmonie (Jul. 2019)
 - Solo debut with orchestra at Sewanee Summer Music Festival (Jul. 2017)
 - Live performance for KPFA 94.9 podcast “Ideas and Ideals” with Larry Bensky (Feb. 2019)
+- Six consecutive years performing at Junior Bach Festival (2014-2019)
 
 ## I am a cover artist recording original arrangements of my favorite songs.
 Songs I've covered:
