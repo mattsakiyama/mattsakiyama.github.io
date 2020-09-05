@@ -2,11 +2,10 @@
 title: Research
 permalink: /research/
 ---
-## MIT Burge Lab
+## MIT Christopher Burge Laboratory
 - Research 3’ untranslated regions (3’ UTRs) and alternative polyadenylation (APA) sites in the human genome
 - Use data.table and ggplot2 packages in R to manipulate and plot 3’ UTR and APA location data
 - Present work at weekly meetings
-- [More information](https://genes.mit.edu)
 
 ## Molecular Biology Research
 - Co-lead of research team
