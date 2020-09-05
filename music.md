@@ -54,12 +54,12 @@ I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-Coll
   - 1st violinist, NYO2 2018 New York-Miami Tour with Maestro Carlos Miguel Prieto and soloist Gil Shaham
 - 4 seasons with San Francisco Symphony Youth Orchestra
   - 2019 European Tour featuring Grammy Award winning soloist Nicola Benedetti
-  - Youngest member
   - 1st violinist
+  - Youngest member
 - Sewanee Summer Music Festival 2017, soloist and Concertmaster
 - 3 seasons with Golden State Youth Orchestra (formerly El Camino Youth Orchestra)
-  - Youngest member
   - Assistant concertmaster of Sinfonietta
+  - Youngest member
 
 ## I am a chamber musician who has won awards with different ensembles.
 - San Francisco Conservatory of Music Chamber Music Award (2020)
