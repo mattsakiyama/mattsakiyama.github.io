@@ -47,6 +47,13 @@ permalink: /academics/
   - AP Calculus BC
   - AP Chinese
   - AP Physics Mechanics C
+  
+## Clubs
+- President of the Nueva Music Outreach Club
+- Co-founder and co-lead of Invention Studio team
+- Founder and president of the Chinese Cinema Club
+- Member of Nueva THRIVE
+- Member of Nueva TEDx
 
 ## Year-long Independent Projects
 - 2017-18: Coded one and two-player text-based blackjack games in Python. [GitHub](https://github.com/matsaki289/Blackjack-Matthew-Sakiyama)
