@@ -3,6 +3,8 @@ title: Academics
 permalink: /academics/
 ---
 
+## I have diverse academic interests, ranging from fabrication to psychology.
+
 ## Skills
 - Technical:
   - Google Suite, iMovie (experienced)
@@ -16,6 +18,16 @@ permalink: /academics/
 
 
 ## Courses
+
+## Molecular Biology Research
+- Co-lead of research team
+- Studied experimental design and fundamental lab skills
+- Conducted original research on dopamine signalling in C. elegans in partnership with Stanford Shen Lab
+- Planned to present data at annual meeting of the American Society for Biochemistry and Molecular Biology before cancellation due to COVID-19
+- Performed PCR, gel electrophoresis, and nematode husbandry
+- Analyzed video data using WormLab
+- Performed lab procedures using autoclave, vortex, centrifuge, micropipette
+- Teach basic lab skills and provide guidance to new research program members
 
 ### Drug Design
 - Teacher's Assistant for Drug Design this year
@@ -34,6 +46,7 @@ permalink: /academics/
 - Used Fusion360 to sketch 2-dimensional and 3-dimensional models
 - Modeled and machined chopstick holder with aluminum using Fusion360, chopsaw and CNC mill
 - Designed, modeled, and assembled desk fan using Fusion360 and 3-D printer
+- Used principles of sheet metal folding to construct a protective casing for a chicken's egg
 
 ### Psychology
 - Enrolled and received an A in Introduction to Psychology at Skyline College
