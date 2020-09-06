@@ -3,6 +3,7 @@ title: Research
 permalink: /research/
 ---
 ## MIT Christopher Burge Laboratory
+- Worked under guidance of Dr. Scott Findlay, PhD
 - Research 3’ untranslated regions (3’ UTRs) and alternative polyadenylation (APA) sites in the human genome
 - Use data.table and ggplot2 packages in R to manipulate and plot 3’ UTR and APA location data
 - Present work at weekly meetings
