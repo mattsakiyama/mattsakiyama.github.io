@@ -48,6 +48,7 @@ I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-Coll
 - Violin Sonata in A major, op. 12 no. 2 by Ludwig Van Beethoven
 
 ## I am an orchestral violinist who has toured internationally.
+- I have been accepted to prestigious summer programs including the Aspen Summer Music Festival, Music@Menlo, National Youth Orchestra of the USA, Vivace International Music Festival, and Meadowmount School of Music. 
 - 3 consecutive seasons with the National Youth Orchestra program
   - 1st violinist, NYO-USA 2020 with Maestro Jim Ross. [Listen to NYO-USA 2020's recording of Umoja by Valerie Coleman](https://www.facebook.com/carnegiehall/videos/369035581158912/)
   - Associate Concertmaster, NYO2 2019 New York-Miami Tour with Maestro Carlos Miguel Prieto and soloists Gabriela Montero and Paquito D'Rivera
