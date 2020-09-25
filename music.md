@@ -9,8 +9,8 @@ permalink: /music/
 I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-College.
 
 ### Watch some of my favorite recordings of my playing!
-- Fantasy for Solo Violin by Ellen Taaffe Zwilich
-- Fiddle Dance Suite: As the Wind Goes by Wynton Marsalis (commissioned by Nicola Benedetti)
+- [Fantasy for Solo Violin by Ellen Taaffe Zwilich](https://www.youtube.com/watch?v=hU8rwU7u3LM)
+- [Fiddle Dance Suite: As the Wind Goes by Wynton Marsalis (commissioned by Nicola Benedetti)](https://www.youtube.com/watch?v=v47sWGZGSso)
 - [Partita no. 3 in E Major: Gigue by Johann Sebastian Bach](https://www.youtube.com/watch?v=MYTKgvB1rb0)
 - [Tzigane by Maurice Ravel](https://www.youtube.com/watch?v=a-Ok8jWDPJ8)
 
