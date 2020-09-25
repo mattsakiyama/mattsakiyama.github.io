@@ -54,13 +54,14 @@ permalink: /academics/
 - Studied six years of Social Emotional Learning and Science of Mind
   - Explored neuroscience and physiology of stress, practiced mindfulness techniques, and provided peer feedback in personal problem solving
   
-## AP Scores
+## Test Scores
 - Self-studied for and received 5 out of 5 on the following AP tests:
   - AP Chemistry
   - AP Biology
   - AP Calculus BC
   - AP Chinese
   - AP Physics Mechanics C
+- Named National Merit Scholarship Semifinalist
   
 ## Clubs
 - President of the Nueva Music Outreach Club
