@@ -28,7 +28,7 @@ I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-Coll
 - Finalist Classics Alive Young Artist Audition (2017)
 - 1st Prize 2016 Pacific Music Society Music Competition (2016)
 
-### I have studied at the San Francisco Conservatory of Music (SFCM) Pre-College for nine years.
+### I have studied at the San Francisco Conservatory of Music (SFCM) Pre-College for eight years.
 - Vice President and founding member of Student Council (2019-20)
 - Organized [virtual benefit concert](https://youtu.be/1GKF1WkvS0o?t=1573) and raised over $1,600 for music education in San Francisco public schools
 - Featured Performer at Pre-college Graduation (2020)
