@@ -2,11 +2,11 @@
 title: Music
 permalink: /music/
 ---
-## I am a virtuoso concert violinist.
+## I am a concert violinist.
 
 ![alt text](/img/violin_notie.jpg)
 
-I study with Mr. Elbert Tsai at the San Francisco Conservatory of Music Pre-College.
+I study with Mr. Ken Hamao at the Harvard University Music Department.
 
 ### Watch some of my favorite recordings of my playing!
 - [Fantasy for Solo Violin by Ellen Taaffe Zwilich](https://www.youtube.com/watch?v=hU8rwU7u3LM)
@@ -89,5 +89,5 @@ Songs I've covered:
 - [Juice WRLD - Lucid Dreams](https://www.youtube.com/watch?v=_RK_xT4cf90)
 - [Lil Tecca - Ransom](https://www.youtube.com/watch?v=Z-RdAkUWAms)
 
-## I also give private lessons to beginning violin students in the Bay Area.
+## I also give private lessons to beginning violin students.
 If you would like to learn from me, please email [matt.sakiyama@gmail.com](matt.sakiyama@gmail.com)
