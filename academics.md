@@ -7,7 +7,7 @@ permalink: /academics/
 
 ## Skills
 - Technical:
-  - Python, C, R, SQL (proficient)
+  - Python, C, R (proficient)
 - Laboratory:
   - PCR, gel electrophoresis, agar-making, C. elegans husbandry
 - Languages: 
