@@ -28,7 +28,7 @@ I study with Mr. Ken Hamao at the Harvard University Music Department.
 - Finalist Classics Alive Young Artist Audition (2017)
 - 1st Prize 2016 Pacific Music Society Music Competition (2016)
 
-### I have studied at the San Francisco Conservatory of Music (SFCM) Pre-College for eight years.
+### I  studied at the San Francisco Conservatory of Music (SFCM) Pre-College for eight years.
 - Vice President and founding member of Student Council (2019-20)
 - Organized [virtual benefit concert](https://youtu.be/1GKF1WkvS0o?t=1573) and raised over $1,600 for music education in San Francisco public schools
 - Featured Performer at Pre-college Graduation (2020)
@@ -40,15 +40,12 @@ I study with Mr. Ken Hamao at the Harvard University Music Department.
 
 ### Here are the pieces I'm currently working on:
 - Violin Concerto in D major, op. 77 by Johannes Brahms
-- Fantasy for Solo Violin by Ellen Taaffe Zwilich
-- Sonata no. 3 in C major, BWV 1005 by Johann Sebastian Bach
-- Caprice for Solo Violin, op. 1 no. 4 by Niccolò Paganini
-- Caprice for Solo Violin, op. 1 no. 24 by Niccolò Paganini
-- Fiddle Dance Suite: As the Wind Goes by Wynton Marsalis
-- Violin Sonata in A major, op. 12 no. 2 by Ludwig Van Beethoven
+- Violin Concerto in D major, op. 35 by Erich Korngold
+- Chaconne from Partita no. 2 in D minor, BWV 1004 by J.S. Bach
 
 ## I am an orchestral violinist who has toured internationally.
 - I have been accepted to prestigious summer programs including the Aspen Summer Music Festival, Music@Menlo, National Youth Orchestra of the USA, Vivace International Music Festival, and Meadowmount School of Music. 
+- 1 season with the Harvard Radcliffe Orchestra
 - 3 consecutive seasons with the National Youth Orchestra program
   - 1st violinist, NYO-USA 2020 with Maestro Jim Ross. [Listen to NYO-USA 2020's recording of Umoja by Valerie Coleman](https://www.facebook.com/carnegiehall/videos/369035581158912/)
   - Associate Concertmaster, NYO2 2019 New York-Miami Tour with Maestro Carlos Miguel Prieto and soloists Gabriela Montero and Paquito D'Rivera
@@ -56,10 +53,6 @@ I study with Mr. Ken Hamao at the Harvard University Music Department.
 - 4 seasons with San Francisco Symphony Youth Orchestra
   - 2019 European Tour featuring Grammy Award winning soloist Nicola Benedetti
   - 1st violinist
-  - Youngest member
-- Sewanee Summer Music Festival 2017, soloist and Concertmaster
-- 3 seasons with Golden State Youth Orchestra (formerly El Camino Youth Orchestra)
-  - Assistant concertmaster of Sinfonietta
   - Youngest member
 
 ## I am a chamber musician who has won awards with different ensembles.
