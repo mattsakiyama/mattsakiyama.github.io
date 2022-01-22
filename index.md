@@ -9,4 +9,4 @@ I'm a first-year at Harvard University. I live in Straus Hall, and plan to conce
 
 Use the sidebar to learn more about my interests!
 
-![alt text](img/violin_tie.jpg)
+![alt text](img/IMG_6892_Original.jpg)
