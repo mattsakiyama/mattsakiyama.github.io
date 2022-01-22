@@ -4,7 +4,7 @@ permalink: /music/
 ---
 ## I am a concert violinist.
 
-![alt text](img/violin_notie.jpg)
+![alt text](img/violin_tie.jpg)
 
 I study with Mr. Ken Hamao at the Harvard University Music Department.
 
