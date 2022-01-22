@@ -3,11 +3,11 @@ title: Academics
 permalink: /academics/
 ---
 
-## I have diverse academic interests, ranging from Computer Science to the Life Sciences
+## I have diverse academic interests, ranging from the life sciences to computer science.
 
 ## Skills
 - Technical:
-  - Python, C, R (proficient)
+  - Python, Javascript, C, R (proficient)
 - Laboratory:
   - PCR, gel electrophoresis, agar-making, C. elegans husbandry
 - Languages: 
@@ -17,16 +17,19 @@ permalink: /academics/
 
 ## Courses
 
+4.00/4.00 GPA
+
 ### CS50: Introduction to Computer Science
-- Solved problem sets in Python C, and SQL
+- Completed problem sets in Python, C, and SQL
 - Practiced basic web development
 
 ### Math 21a: Multivariable Calculus
-- Worked with vectors, 3-dimensional space, parameterization, and vector fields.
+- Worked with vectors, 3-dimensional space, parameterization, and vector fields
 - Learned to find critical points and optimize functions, and integrate over curves, surfaces, and solids
 
-## Clubs
-
+### LS 1a: Introduction to the Life Sciences
+- Reviewed foundational concepts in chemistry and biochemistry
+- Applied practical laboratory skills in weekly labs
 
 ## Independent Projects
 - 2017-18: Coded one and two-player text-based blackjack games in Python. [GitHub](https://github.com/matsaki289/Blackjack-Matthew-Sakiyama)
