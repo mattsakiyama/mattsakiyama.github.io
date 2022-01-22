@@ -2,7 +2,7 @@
 title: Research
 permalink: /research/
 ---
-## MIT Christopher Burge Laboratory
+## Christopher Burge Laboratory at MIT
 - Worked under guidance of Dr. Scott Findlay, PhD
 - Wrote scripts in R to process and plot large string data to identify alternative polyadenylation sites
 - Collated and filtered annotations across UCSC genome browser, GENCODE and polyA_DB datasets
@@ -11,7 +11,6 @@ permalink: /research/
 
 ## Molecular Biology Research
 - Co-lead of research team
-- Studied experimental design and fundamental lab skills
 - Conducted original research on dopamine signalling in C. elegans in partnership with Stanford Shen Lab
 - Planned to present data at annual meeting of the American Society for Biochemistry and Molecular Biology before cancellation due to COVID-19
 - Performed PCR, gel electrophoresis, and nematode husbandry
