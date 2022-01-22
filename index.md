@@ -5,7 +5,7 @@ title: Home
 is_home: True
 ---
 ## Hi there!
-I'm a first-year at Harvard University. I live in Straus Hall, and plan to concentrate in Molecular and Cellular Biology. I go by the pronouns he/him/his.
+My name is Matt Sakiyama and I'm a first-year at Harvard University. I live in Straus Hall, and plan to concentrate in Molecular and Cellular Biology. I go by the pronouns he/him/his.
 
 Use the sidebar to learn more about my interests!
 
