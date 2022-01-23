@@ -2,9 +2,13 @@
 title: Volunteering
 permalink: /volunteering/
 ---
+## Harvard Phillips Brookshouse Association
+- Prepared local high school students for standardized tests
+- Provided general academic mentoring as well as college application advice to students
+
 ## SPCA
-- Take resident dogs on walks and clean dormitory rooms and dirty linens
-- Log each dog’s activities and provide potential adopters with information
+- Took resident dogs on walks and clean dormitory rooms and dirty linens
+- Logged each dog’s activities and provide potential adopters with information
 - [More information](https://phs-spca.org/)
 
 ## Tutoring
