@@ -35,7 +35,7 @@ permalink: /academics/
 - Applied practical laboratory skills in weekly labs
 
 ## Independent Projects
-- 2017-18: Coded one and two-player text-based blackjack games in Python. [GitHub](https://github.com/matsaki289/Blackjack-Matthew-Sakiyama)
+- 2017-18: Coded a text-based blackjack game in Python. [GitHub](https://github.com/mattsakiyama/python-blackjack)
 - 2018-19: Designed, fabricated, and assembled a pendulum clock escapement
   - Designed and components of the escapement mechanism using Fusion360
   - Researched history of timekeeping and evolution of clock mechanisms
