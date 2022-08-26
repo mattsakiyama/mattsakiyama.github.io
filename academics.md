@@ -7,7 +7,7 @@ permalink: /academics/
 
 ## Skills
 - Technical:
-  - Python, Javascript, C, R (proficient)
+  - Python, OCaml, Javascript, C, R, HTML (proficient)
 - Laboratory:
   - PCR, gel electrophoresis, agar-making, C. elegans husbandry
 - Languages: 
@@ -17,11 +17,14 @@ permalink: /academics/
 
 ## Courses
 
-4.00/4.00 GPA
-
 ### CS50: Introduction to Computer Science
 - Completed problem sets in Python, C, and SQL
-- Practiced basic web development
+- Practiced basic web development using HTML and Javascript
+
+### CS51: Abstraction and Design in Computing
+- Completed problem sets in OCaml
+- Practiced functional and object-oriented programming
+- Implemented an OCaml-like language based on a substitution model, and then a dynamically scoped environment model
 
 ### Math 21a: Multivariable Calculus
 - Worked with vectors, 3-dimensional space, parameterization, and vector fields
@@ -42,7 +45,7 @@ permalink: /academics/
   - Transcribed popular songs by ear
   - Recorded and edited instrumentals and melody from scratch
   - Recorded, edited, and posted videos on YouTube
-- 2021: Developed [webpage](https://github.com/Aaronbradford/CS50-Final-Project) to search for artist collaborations
+- 2021: Developed [webpage](github.com/mattsakiyama/spotify-collaboration-search) to search for artist collaborations
   - Used Spotipy library and Spotify API to search Spotify for user-inputted artist combinations
   - Created basic registration and login infrastructure
  
