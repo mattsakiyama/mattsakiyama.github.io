@@ -2,6 +2,14 @@
 title: Research
 permalink: /research/
 ---
+
+## Alkes Price Group at Harvard School of Public Health
+- Worked under guidance of Prof. Alkes Price
+- Wrote scripts in Python to estimate heritability of diseases cataloged in UK Biobank database
+- Quantified heritability contributions from genetic signals using regression scoring
+- Summarized and presented research on genetic fine mapping techniques and heritability estimation
+
+
 ## Christopher Burge Laboratory at MIT
 - Worked under guidance of Dr. Scott Findlay, PhD
 - Wrote scripts in R to process and plot large string data to identify alternative polyadenylation sites
