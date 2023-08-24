@@ -5,7 +5,7 @@ title: Home
 is_home: True
 ---
 ## Hi there!
-My name is Matt Sakiyama and I'm a junior at Harvard University. I live in Lowell House, and am concentrating in Computer Science. I go by the pronouns he/him/his.
+My name is Matt Sakiyama and I'm a sophomore at Harvard University. I live in Lowell House, and am concentrating in Computer Science. I go by the pronouns he/him/his.
 
 Use the sidebar to learn more about my interests!
 
