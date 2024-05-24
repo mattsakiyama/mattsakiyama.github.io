@@ -45,7 +45,7 @@ permalink: /academics/
   - Transcribed popular songs by ear
   - Recorded and edited instrumentals and melody from scratch
   - Recorded, edited, and posted videos on YouTube
-- 2021: Developed [webpage](github.com/mattsakiyama/spotify-collaboration-search) to search for artist collaborations
+- 2021: Developed [webpage](https://github.com/mattsakiyama/spotify-collaboration-search) to search for artist collaborations
   - Used Spotipy library and Spotify API to search Spotify for user-inputted artist combinations
   - Created basic registration and login infrastructure
  
