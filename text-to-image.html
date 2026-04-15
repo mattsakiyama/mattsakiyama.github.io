@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Text to Image</title>
+<meta name="Text for Instagram" content="Convert text to square or story-format images for social media." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&family=Lora:wght@400;500&family=Source+Code+Pro:wght@300;400&family=Playfair+Display:wght@400;500&family=Libre+Baskerville&family=Raleway:wght@300;400&family=Merriweather:wght@300;400&display=swap" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f7f5f0;
+    --surface: #ffffff;
+    --border: #e2ddd6;
+    --border-strong: #c8c2b8;
+    --text: #1c1917;
+    --text-muted: #78716c;
+    --text-faint: #a8a29e;
+    --accent: #1c1917;
+    --accent-hover: #44403c;
+    --radius: 4px;
+    --radius-lg: 8px;
+  }
+
+  html, body {
+    min-height: 100vh;
+    background: var(--bg);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 3.5rem 2rem 5rem;
+  }
+
+  header {
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  header p {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  @media (max-width: 700px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+
+  .controls { display: flex; flex-direction: column; gap: 1.75rem; }
+
+  .panel-label {
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-bottom: 0.55rem;
+  }
+
+  textarea {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 0.9rem 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 300;
+    color: var(--text);
+    line-height: 1.75;
+    resize: vertical;
+    min-height: 190px;
+    outline: none;
+    transition: border-color 0.15s;
+    tab-size: 4;
+    -moz-tab-size: 4;
+  }
+
+  textarea::placeholder { color: var(--text-faint); }
+  textarea:focus { border-color: var(--border-strong); }
+
+  .char-count {
+    font-size: 0.72rem;
+    color: var(--text-faint);
+    text-align: right;
+    margin-top: 0.35rem;
+  }
+
+  .divider { border: none; border-top: 1px solid var(--border); }
+
+  .select-group { display: flex; flex-direction: column; gap: 0.6rem; }
+
+  .select-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .select-row span {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  select, input[type="number"] {
+    appearance: none;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 6px 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    color: var(--text);
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%2378716c'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 28px;
+    min-width: 150px;
+  }
+
+  input[type="number"] {
+    width: 70px;
+    text-align: center;
+    -moz-appearance: textfield;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; }
+
+  select:hover, select:focus,
+  input[type="number"]:hover, input[type="number"]:focus { border-color: var(--border-strong); }
+
+  .btn-row { display: flex; gap: 8px; }
+
+  .btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 10px 14px;
+    border-radius: var(--radius-lg);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    transition: background 0.15s, border-color 0.15s, transform 0.1s;
+    white-space: nowrap;
+  }
+  .btn:hover { background: var(--bg); border-color: var(--border-strong); }
+  .btn:active { transform: scale(0.98); }
+  .btn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
+  .btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+
+  .btn svg {
+    width: 13px; height: 13px;
+    stroke: currentColor; fill: none;
+    stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+    flex-shrink: 0;
+  }
+
+  /* Preview */
+  .preview-col { display: flex; flex-direction: column; gap: 1rem; }
+
+  .preview-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .page-indicator {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    letter-spacing: 0.03em;
+  }
+
+  .canvas-frame {
+    background: #e8e4de;
+    border-radius: var(--radius-lg);
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    border: 1.5px solid #1c1917;
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    min-height: 30px;
+  }
+
+  .page-btn {
+    width: 30px; height: 30px;
+    display: flex; align-items: center; justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    cursor: pointer;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    transition: all 0.12s;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .page-btn:hover:not(:disabled) { border-color: var(--border-strong); color: var(--text); }
+  .page-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+  .page-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .page-btn svg {
+    width: 12px; height: 12px;
+    stroke: currentColor; fill: none;
+    stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round;
+  }
+
+  .page-dots { font-size: 0.75rem; color: var(--text-faint); padding: 0 2px; line-height: 30px; }
+
+  .preview-meta { display: flex; justify-content: space-between; align-items: center; }
+
+  .badge {
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    background: var(--border);
+    padding: 3px 8px;
+    border-radius: 20px;
+  }
+  /* Format switch */
+  .format-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .switch-label {
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+
+  .switch-track {
+    display: flex;
+    background: var(--border);
+    border-radius: 20px;
+    padding: 3px;
+    gap: 2px;
+  }
+
+  .switch-opt {
+    padding: 5px 14px;
+    border-radius: 16px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    transition: background 0.15s, color 0.15s;
+    letter-spacing: 0.01em;
+    line-height: 1;
+  }
+
+  .switch-opt.active {
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .switch-opt:hover:not(.active) { color: var(--text); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Text to Image</h1>
+    <p id="headerDims">1080 × 1080 · PNG</p>
+  </header>
+
+  <div class="layout">
+
+    <!-- Controls -->
+    <div class="controls">
+
+      <div>
+        <div class="panel-label">Text</div>
+        <textarea id="inputText" placeholder="Paste or type your text here…" spellcheck="false"></textarea>
+        <div class="char-count" id="charCount">0 characters</div>
+      </div>
+
+      <hr class="divider" />
+
+      <div>
+        <div class="panel-label">Appearance</div>
+        <div class="select-group">
+          <div class="select-row">
+            <span>Background</span>
+            <select id="bgColor">
+              <option value="#ffffff">White</option>
+              <option value="#1a1a1a">Black</option>
+              <option value="#f5f0e8">Cream</option>
+              <option value="#0f2b46">Navy</option>
+              <option value="#1a1a2e">Midnight</option>
+              <option value="#1e3a2f">Forest</option>
+            </select>
+          </div>
+          <div class="select-row">
+            <span>Text color</span>
+            <select id="textColor">
+              <option value="#1a1a1a">Dark</option>
+              <option value="#ffffff">White</option>
+              <option value="#6b6560">Stone</option>
+              <option value="#2d5a8e">Blue</option>
+            </select>
+          </div>
+
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <div>
+        <div class="panel-label">Typography</div>
+        <div class="select-group">
+          <div class="select-row">
+            <span>Font</span>
+            <select id="fontFamily">
+              <option value="'DM Sans', sans-serif" data-weight="300">DM Sans</option>
+              <option value="'Times New Roman', serif" data-weight="400">Times New Roman</option>
+              <option value="'Lora', serif" data-weight="400">Lora</option>
+              <option value="'Playfair Display', serif" data-weight="400">Playfair Display</option>
+              <option value="'Merriweather', serif" data-weight="300">Merriweather</option>
+              <option value="'Libre Baskerville', serif" data-weight="400">Libre Baskerville</option>
+              <option value="'Raleway', sans-serif" data-weight="300">Raleway</option>
+              <option value="'Source Code Pro', monospace" data-weight="300">Source Code Pro</option>
+            </select>
+          </div>
+          <div class="select-row">
+            <span>Font size</span>
+            <input type="number" id="fontSize" value="34" min="10" max="120" step="1" />
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="btn-row">
+        <button class="btn" id="downloadSingleBtn">
+          <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          This image
+        </button>
+        <button class="btn primary" id="downloadZipBtn">
+          <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download all (.zip)
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Preview -->
+    <div class="preview-col">
+      <div class="format-switch">
+        <span class="switch-label">Format</span>
+        <div class="switch-track">
+          <button class="switch-opt active" data-format="post">Post</button>
+          <button class="switch-opt" data-format="story">Story</button>
+        </div>
+      </div>
+      <div class="preview-header">
+        <div class="panel-label" style="margin:0">Preview</div>
+        <div class="page-indicator" id="pageIndicator">Page 1 of 1</div>
+      </div>
+      <div class="canvas-frame">
+        <canvas id="previewCanvas"></canvas>
+      </div>
+      <div id="paginationContainer" class="pagination"></div>
+      <div class="preview-meta">
+        <span class="badge" id="dimsBadge">1080 × 1080 px</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const TAB_SPACES = 4;
+const TAB_STR    = '\u00a0'.repeat(TAB_SPACES);
+
+// Format definitions
+const FORMATS = {
+  post:  { width: 1080, height: 1080, paddingTop: 80,  paddingBottom: 80,  paddingH: 80 },
+  story: { width: 1080, height: 1920, paddingTop: 250, paddingBottom: 250, paddingH: 80 },
+};
+
+const canvas = document.getElementById('previewCanvas');
+const ctx    = canvas.getContext('2d');
+
+const textarea    = document.getElementById('inputText');
+const bgSel       = document.getElementById('bgColor');
+const fgSel       = document.getElementById('textColor');
+const fontFamSel  = document.getElementById('fontFamily');
+const fontSizeEl  = document.getElementById('fontSize');
+const charCountEl = document.getElementById('charCount');
+const pageIndEl   = document.getElementById('pageIndicator');
+const pagContEl   = document.getElementById('paginationContainer');
+const dimsBadge   = document.getElementById('dimsBadge');
+const headerDims  = document.getElementById('headerDims');
+const switchOpts  = document.querySelectorAll('.switch-opt');
+
+let currentFormat = 'post';
+
+switchOpts.forEach(btn => {
+  btn.addEventListener('click', () => {
+    currentFormat = btn.dataset.format;
+    switchOpts.forEach(b => b.classList.toggle('active', b === btn));
+    render();
+  });
+});
+
+function getFormat() { return FORMATS[currentFormat]; }
+
+let pages = [];
+let currentPage = 0;
+
+function updateDimsDisplay() {
+  const f = getFormat();
+  const label = `${f.width} × ${f.height} px`;
+  dimsBadge.textContent  = label;
+  headerDims.textContent = `${f.width} × ${f.height} · PNG`;
+}
+
+// Tab key → insert \t
+textarea.addEventListener('keydown', e => {
+  if (e.key !== 'Tab') return;
+  e.preventDefault();
+  const s  = textarea.selectionStart;
+  const e2 = textarea.selectionEnd;
+  textarea.value = textarea.value.slice(0, s) + '\t' + textarea.value.slice(e2);
+  textarea.selectionStart = textarea.selectionEnd = s + 1;
+  onInput();
+});
+
+function getFontSize() {
+  return Math.max(10, Math.min(120, parseInt(fontSizeEl.value) || 34));
+}
+
+function buildFont(size) {
+  const opt    = fontFamSel.selectedOptions[0];
+  const weight = opt ? (opt.dataset.weight || '400') : '400';
+  return `${weight} ${size}px ${fontFamSel.value}`;
+}
+
+function toCanvasSafe(str) {
+  let s = str.replace(/\t/g, TAB_STR);
+  s = s.replace(/ /g, '\u00a0');
+  return s;
+}
+
+function computeAllPages(text) {
+  const fmt        = getFormat();
+  const fontSize   = getFontSize();
+  const lineHeight = fontSize * 1.65;
+  const maxWidth   = fmt.width - fmt.paddingH * 2;
+  const textAreaH  = fmt.height - fmt.paddingTop - fmt.paddingBottom;
+  const linesPerPage = Math.floor(textAreaH / lineHeight);
+
+  canvas.width  = fmt.width;
+  canvas.height = fmt.height;
+  ctx.font = buildFont(fontSize);
+
+  const allLines = [];
+  for (const para of text.split('\n')) {
+    const expanded = para.replace(/\t/g, ' '.repeat(TAB_SPACES));
+    if (expanded.trim() === '') { allLines.push(expanded); continue; }
+
+    const leadMatch = expanded.match(/^(\s*)/);
+    const leadingWS = leadMatch ? leadMatch[1] : '';
+    const rest      = expanded.slice(leadingWS.length);
+
+    const words = rest.split(' ');
+    let cur = leadingWS;
+    for (const word of words) {
+      const test = cur.length > 0 ? cur + ' ' + word : word;
+      if (ctx.measureText(toCanvasSafe(test)).width > maxWidth && cur.trim() !== '') {
+        allLines.push(cur);
+        cur = word;
+      } else {
+        cur = test;
+      }
+    }
+    if (cur !== '') allLines.push(cur);
+  }
+
+  const result = [];
+  for (let i = 0; i < allLines.length; i += linesPerPage) result.push(allLines.slice(i, i + linesPerPage));
+  if (result.length === 0) result.push([]);
+  return result;
+}
+
+function renderPageToCtx(lines, targetCtx, fmt) {
+  const fontSize   = getFontSize();
+  const lineHeight = fontSize * 1.65;
+  const bg = bgSel.value;
+  const fg = fgSel.value;
+
+  targetCtx.fillStyle = bg;
+  targetCtx.fillRect(0, 0, fmt.width, fmt.height);
+  targetCtx.font         = buildFont(fontSize);
+  targetCtx.fillStyle    = fg;
+  targetCtx.textBaseline = 'top';
+  targetCtx.textAlign    = 'left';
+
+  const textAreaH = fmt.height - fmt.paddingTop - fmt.paddingBottom;
+  const totalH    = lines.length * lineHeight;
+  // Centre the text block within the usable area
+  const startY    = fmt.paddingTop + Math.max(0, (textAreaH - totalH) / 2);
+
+  for (let i = 0; i < lines.length; i++) {
+    const y    = startY + i * lineHeight;
+    const safe = toCanvasSafe(lines[i]);
+    let x = fmt.paddingH;
+    for (let j = 0; j < safe.length; j++) {
+      const ch = safe[j];
+      targetCtx.fillText(ch, x, y);
+      x += targetCtx.measureText(ch).width;
+    }
+  }
+}
+
+function buildPagination(total, cur) {
+  pagContEl.innerHTML = '';
+  if (total <= 1) return;
+
+  const prev = mkPageBtn('', cur === 0, () => goToPage(cur - 1));
+  prev.innerHTML = '<svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>';
+  pagContEl.appendChild(prev);
+
+  const show = new Set([0, total - 1]);
+  for (let i = cur - 1; i <= cur + 1; i++) { if (i >= 0 && i < total) show.add(i); }
+  const sorted = [...show].sort((a, b) => a - b);
+
+  let last = -1;
+  for (const idx of sorted) {
+    if (last !== -1 && idx - last > 1) {
+      const d = document.createElement('span');
+      d.className = 'page-dots'; d.textContent = '···';
+      pagContEl.appendChild(d);
+    }
+    const b = mkPageBtn(idx + 1, false, () => goToPage(idx));
+    if (idx === cur) b.classList.add('active');
+    pagContEl.appendChild(b);
+    last = idx;
+  }
+
+  const next = mkPageBtn('', cur === total - 1, () => goToPage(cur + 1));
+  next.innerHTML = '<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>';
+  pagContEl.appendChild(next);
+}
+
+function mkPageBtn(label, disabled, onClick) {
+  const b = document.createElement('button');
+  b.className = 'page-btn'; b.textContent = label; b.disabled = disabled;
+  b.addEventListener('click', onClick); return b;
+}
+
+function goToPage(idx) {
+  const fmt = getFormat();
+  currentPage = Math.max(0, Math.min(idx, pages.length - 1));
+  renderPageToCtx(pages[currentPage], ctx, fmt);
+  pageIndEl.textContent = `Page ${currentPage + 1} of ${pages.length}`;
+  buildPagination(pages.length, currentPage);
+}
+
+function render() {
+  updateDimsDisplay();
+  const text = textarea.value;
+  pages = computeAllPages(text || 'Start typing to see a preview…');
+  if (currentPage >= pages.length) currentPage = pages.length - 1;
+  goToPage(currentPage);
+}
+
+document.getElementById('downloadSingleBtn').addEventListener('click', () => {
+  const a = document.createElement('a');
+  a.download = pages.length === 1
+    ? 'text-image.png'
+    : `text-image-${String(currentPage + 1).padStart(2, '0')}.png`;
+  a.href = canvas.toDataURL('image/png'); a.click();
+});
+
+document.getElementById('downloadZipBtn').addEventListener('click', async () => {
+  const btn = document.getElementById('downloadZipBtn');
+  btn.disabled = true; btn.textContent = 'Generating…';
+
+  const fmt = getFormat();
+  const off = document.createElement('canvas');
+  off.width = fmt.width; off.height = fmt.height;
+  const offCtx = off.getContext('2d');
+  const zip    = new JSZip();
+  const folder = zip.folder('text-images');
+
+  for (let i = 0; i < pages.length; i++) {
+    renderPageToCtx(pages[i], offCtx, fmt);
+    const b64 = off.toDataURL('image/png').split(',')[1];
+    folder.file(`image-${String(i + 1).padStart(2, '0')}.png`, b64, { base64: true });
+  }
+
+  const blob = await zip.generateAsync({ type: 'blob' });
+  const url  = URL.createObjectURL(blob);
+  const a = document.createElement('a'); a.href = url; a.download = 'text-images.zip'; a.click();
+  URL.revokeObjectURL(url);
+
+  btn.disabled = false;
+  btn.innerHTML = '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Download all (.zip)';
+});
+
+function onInput() {
+  charCountEl.textContent = textarea.value.length + ' characters';
+  render();
+}
+
+textarea.addEventListener('input', onInput);
+bgSel.addEventListener('change', render);
+fgSel.addEventListener('change', render);
+fontFamSel.addEventListener('change', render);
+fontSizeEl.addEventListener('input', render);
+fontSizeEl.addEventListener('change', render);
+
+render();
+</script>
+</body>
+</html>
